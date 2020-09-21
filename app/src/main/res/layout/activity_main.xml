@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/numbers_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginTop="10dp"
+        android:background="#A5AC9D"
+        android:text="Numbers"
+        android:textColor="#FFFFFF"
+        style="@style/main_things"
+        />
+
+    <TextView
+        android:id="@+id/names_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#858A80"
+        style="@style/main_things"
+        android:text="Family "
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/color_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#A5AC9D"
+        android:text="Colors"
+        android:textColor="#FFFFFF"
+        style="@style/main_things" />
+
+    <TextView
+        android:id="@+id/days_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="#858A80"
+        style="@style/main_things"
+        android:text="Days"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

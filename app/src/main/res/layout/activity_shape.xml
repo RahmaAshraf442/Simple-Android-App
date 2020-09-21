@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="6.6dp"
+    android:orientation="horizontal"
+    tools:context=".Shape">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/english_word_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17.6dp"
+            android:paddingLeft="15dp"
+            android:textSize="24sp"
+            tools:text="hi" />
+
+        <TextView
+            android:id="@+id/arabic_word_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+            android:layout_below="@id/english_word_tv"
+            android:paddingLeft="15dp"
+            tools:text="hi" />
+
+        <ImageView
+            android:id="@+id/imageView_play"
+            android:layout_width="43dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:paddingRight="8dp"
+            android:src="@drawable/ic_play" />
+    </RelativeLayout>
+</LinearLayout>
